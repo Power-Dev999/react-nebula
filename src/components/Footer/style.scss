@@ -1,0 +1,39 @@
+/*
+  Footer section
+*/
+
+.footer-section {
+  height: 256px;
+  background: #202429;
+  border: 1px solid #000000;
+
+  .content {
+    margin: 78px 0px;
+    .social-lists {
+      margin-bottom: 26px;
+      .item {
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        background: rgba(255, 255, 255, 0.02);
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        margin-right: 20px;
+        &:last-child {
+          margin-right: 0px;
+        }
+        &:hover {
+          transform: scale(1.07);
+        }
+      }
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 10px;
+      color: #FFFFFF;
+      opacity: 0.6;
+      margin-bottom: 0px;
+    }
+  }
+}

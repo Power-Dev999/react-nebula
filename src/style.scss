@@ -1,0 +1,9 @@
+.video-container {
+  height: 100vh;
+  overflow: hidden;
+  video {
+    object-fit: cover;
+    height: 100%;
+    background-color: #000000;
+  }
+}

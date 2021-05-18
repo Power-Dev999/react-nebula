@@ -1,0 +1,364 @@
+/**
+  Home Section
+*/
+
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
+.home-section {
+  @media (max-width: 576px) {
+    padding-top: 112px;
+  }
+
+
+  .piece-bg-1 {
+    background-image: url('../../assets/imgs/pieceBg1.png');
+    top: 0px;
+    left: 40%;
+    width: 257px;
+    height: 130px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    @media (max-width: 768px) {
+      left: 25%;
+    }
+  }
+
+  .portfolio-projects-section {
+    padding-bottom: 160px;
+    padding-top: 200px;
+    background-image: url('../../assets/imgs/background.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    .piece-bg-2 {
+      background-image: url('../../assets/imgs/pieceBg2.png');
+      bottom: 100px;
+      left: 0px;
+      width: 100px;
+      height: 186px;
+      background-repeat: no-repeat;
+    }
+    .container {
+      .row {
+        > div {
+          margin-bottom: 20px;
+        }
+        .text-section {
+
+          p {
+            margin-bottom: 44px;
+          }
+
+          .err-msg {
+            top: -20px;
+            color: #ff003d;
+            transition: all 0.3s linear;
+            font-weight: 400;
+            font-size: 14px;
+          }
+
+          .subscribe {
+            margin-top: 5px;
+            padding: 8px;
+            width: 485px;
+            height: 60px;
+            background: #202429;
+            border-radius: 100px;
+            flex-direction: row;
+            @media (max-width: 768px) {
+              width: 100%;
+              flex-direction: column;
+            }
+
+            input {
+              background: transparent;
+              color: #FFFFFF;
+              border: none;
+              outline: none;
+              font-size: 20px;
+              padding: 8px;
+              margin-left: 16px;
+            }
+
+            button {
+              &.not-allow {
+                cursor: not-allowed;
+              }
+              border-radius: 26px;
+              font-weight: 500;
+              font-size: 20px;
+              text-align: center;
+              color: #FFFFFF;
+              border: none;
+              height: 100%;
+              width: 153px;
+              @media (max-width: 768px) {
+                min-height: 60px;
+                margin-top: 20px;
+                width: 100%;
+              }
+            }
+          }
+        }
+
+        .img-section {
+          .small-img {
+            right: 0px;
+            top: 43px;
+            @media (max-width: 768px) {
+              width: 70%;
+            }
+          }
+          @media (max-width: 576px) {
+            margin-top: 70px;
+          }
+          .portfilio-img {
+            @media (max-width: 768px) {
+              width: 80%;
+            }
+          }
+        } 
+      }
+
+      .first-img-section {
+        @media (max-width: 576px) {
+          margin-top: 70px;
+        }
+      }
+    }
+  }
+
+  // description-section
+  .description-section {
+    background: #202429;
+    border: 1px solid #000000;
+
+    .piece-bg-3 {
+      background-image: url('../../assets/imgs/pieceBg3.png');
+      top: -158px;
+      right: 0px;
+      width: 75px;
+      height: 280px;
+      background-repeat: no-repeat;
+    }
+    h1 {
+      margin-bottom: 20px;
+      margin-top: 78px;
+      max-width: 963px;
+    }
+    p {
+      margin-bottom: 95px;
+      max-width: 645px;
+    }
+    @media (max-width: 576px) {
+      padding: 0px 15px;
+    }
+  }
+
+  .business-trade-section {
+    background-image: url('../../assets/imgs/background3.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 155px;
+    // fund your business section
+    .fund-business-section {
+      margin-top: 60px;
+      .piece-bg-4 {
+        background-image: url('../../assets/imgs/pieceBg4.png');
+        bottom: -65px;
+        right: 0px;
+        width: 150px;
+        height: 280px;
+        background-repeat: no-repeat;
+      }
+
+      .business-bg-section {
+        background-image: url('../../assets/imgs/Group.png');
+        top: -470px;
+        right: 0px;
+        width: 50%;
+        background-position: center;
+        height: 867px;
+        background-repeat: no-repeat;
+        z-index: -1;
+      }
+
+      .row {
+        > div {
+          margin-top: 30px;
+        }
+        .img-section {
+          .fund-business-white {
+            top: 50px;
+            left: 0px;
+          }
+          
+          .fund-business-black {
+            z-index: 10;
+            margin-right: 40px;
+            @media (max-width: 576px) {
+              margin: 0px;
+            }
+          }
+        }
+      }
+    }
+
+    // trade section
+    .trade-section {
+      margin-top: 100px;
+      .row {
+        > div {
+          margin-top: 30px;
+
+          .img-section {
+            .trade-big {
+              margin-left: 50px;
+              @media (max-width: 576px) {
+                margin: 0px;
+              }
+            }
+            .trade-big {
+              z-index: 10;
+            }
+            .trade-small {
+              right: 0px;
+              top: 41px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .list-orders-section {
+    background-image: url('../../assets/imgs/background4.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-bottom: 110px;
+
+    // list section
+    .list-section {
+      .row {
+        .piece-bg-5 {
+          background-image: url('../../assets/imgs/pieceBg5.png');
+          top: -100px;
+          right: -100px;
+          @media (max-width: 768px) {
+            right: 0px;
+          }
+          @media (max-width: 576px) {
+            top: -50px;
+            right: 0px;
+          }
+          width: 300px;
+          height: 280px;
+          background-repeat: no-repeat;
+        }
+        > div {
+          margin-top: 30px;
+          .content {
+            padding: 50px 40px;
+            background: #202429;
+            border: 1px solid #000000;
+            border-radius: 10px;
+            transition: all 0.3s;
+
+            .description {
+              margin-top: 45px;
+              font-size: 20px;
+              text-align: center;
+              color: #656C74;
+            }
+
+            &:hover {
+              transform: scale(1.07);
+            }
+          }
+        }
+      }
+    }
+
+    // orders-settings-section
+    .orders-settings-section {
+      margin-top: 140px;
+      .row {
+        > div {
+          margin-top: 30px;
+          .img-section {
+            .orders {
+              left: 0px;
+              top: 41px;
+            }
+
+            .settings {
+              margin-right: 50px;
+              z-index: 10;
+              @media (max-width: 576px) {
+                margin: 0px;
+              }
+            }
+
+            .piece-bg-6 {
+              background-image: url('../../assets/imgs/pieceBg6.png');
+              bottom: 0px;
+              left: -60px;
+              width: 215px;
+              height: 199px;
+              background-repeat: no-repeat;
+            }
+          }
+        }
+      }
+    }
+
+    .growth-reason {
+      margin-top: 130px;
+    }
+  }
+
+  .chart-section {
+    background-image: url('../../assets/imgs/background.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: relative;
+
+    .piece-bg-7 {
+      display: block;
+      position: absolute;
+      background-image: url('../../assets/imgs/pieceBg7.png');
+      top: 400px;
+      right: 0px;
+      width: 234px;
+      height: 300px;
+      background-repeat: no-repeat;
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    .circle-chart-section {
+      text-align: center;
+      img {
+        width: 95%;
+      }
+    }
+
+    .road-section {
+      background-color:#000000;
+      text-align: center;
+      img {
+        width: 95%;
+      }
+    }
+
+    .present-goal {
+      margin-top: 150px;
+    }
+  }
+
+}

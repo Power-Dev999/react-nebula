@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Quicksand:wght@400;500;700&display=swap');
+
+body {
+  background: #000000;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-style: normal;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+  color: #656C74;
+}
+
+// full buttton
+.fill-btn{
+  transition: 0.2s;
+  border: none;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  border-radius: 26px;
+  background: linear-gradient(86.66deg, #355DEE 0%, #6916CA 99.63%);
+  &:hover {
+    background: linear-gradient(86.66deg, #355DEE 0%, #6916CA 99.63%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #B989F8;
+    box-shadow: 0 6px 12px 0 rgba(35, 1, 221, 0.25);
+  }
+}
